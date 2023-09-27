@@ -10,12 +10,13 @@
 		5E4AF4CE2AB9C4070080F7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AF4CD2AB9C4070080F7C9 /* AppDelegate.swift */; };
 		5E4AF4D02AB9C4070080F7C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AF4CF2AB9C4070080F7C9 /* SceneDelegate.swift */; };
 		5E4AF4D22AB9C4070080F7C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AF4D12AB9C4070080F7C9 /* ViewController.swift */; };
-		5E4AF4D52AB9C4070080F7C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4AF4D32AB9C4070080F7C9 /* Main.storyboard */; };
 		5E4AF4D72AB9C4080080F7C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E4AF4D62AB9C4080080F7C9 /* Assets.xcassets */; };
-		5E4AF4DA2AB9C4080080F7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E4AF4D82AB9C4080080F7C9 /* LaunchScreen.storyboard */; };
 		5E4AF4E52AB9C4080080F7C9 /* FalconeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AF4E42AB9C4080080F7C9 /* FalconeTests.swift */; };
 		5E4AF4EF2AB9C4080080F7C9 /* FalconeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AF4EE2AB9C4080080F7C9 /* FalconeUITests.swift */; };
 		5E4AF4F12AB9C4080080F7C9 /* FalconeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AF4F02AB9C4080080F7C9 /* FalconeUITestsLaunchTests.swift */; };
+		5E4AF4FF2ABC38820080F7C9 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AF4FE2ABC38820080F7C9 /* DataModel.swift */; };
+		5E4AF5012ABC4E200080F7C9 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AF5002ABC4E200080F7C9 /* APICaller.swift */; };
+		5E4AF5042ABC51040080F7C9 /* PlanetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4AF5032ABC51040080F7C9 /* PlanetViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,15 +41,16 @@
 		5E4AF4CD2AB9C4070080F7C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E4AF4CF2AB9C4070080F7C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5E4AF4D12AB9C4070080F7C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E4AF4D42AB9C4070080F7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5E4AF4D62AB9C4080080F7C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		5E4AF4D92AB9C4080080F7C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5E4AF4DB2AB9C4080080F7C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5E4AF4E02AB9C4080080F7C9 /* FalconeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4AF4E42AB9C4080080F7C9 /* FalconeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeTests.swift; sourceTree = "<group>"; };
 		5E4AF4EA2AB9C4080080F7C9 /* FalconeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FalconeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E4AF4EE2AB9C4080080F7C9 /* FalconeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeUITests.swift; sourceTree = "<group>"; };
 		5E4AF4F02AB9C4080080F7C9 /* FalconeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalconeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E4AF4FE2ABC38820080F7C9 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		5E4AF5002ABC4E200080F7C9 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
+		5E4AF5032ABC51040080F7C9 /* PlanetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +101,13 @@
 		5E4AF4CC2AB9C4070080F7C9 /* Falcone */ = {
 			isa = PBXGroup;
 			children = (
+				5E4AF5052ABC53D60080F7C9 /* Views */,
+				5E4AF5022ABC50CE0080F7C9 /* ViewModel */,
+				5E4AF4FD2ABC385A0080F7C9 /* Model */,
+				5EAC6A422AC31EF800D8C99F /* WebServices */,
 				5E4AF4CD2AB9C4070080F7C9 /* AppDelegate.swift */,
 				5E4AF4CF2AB9C4070080F7C9 /* SceneDelegate.swift */,
-				5E4AF4D12AB9C4070080F7C9 /* ViewController.swift */,
-				5E4AF4D32AB9C4070080F7C9 /* Main.storyboard */,
 				5E4AF4D62AB9C4080080F7C9 /* Assets.xcassets */,
-				5E4AF4D82AB9C4080080F7C9 /* LaunchScreen.storyboard */,
 				5E4AF4DB2AB9C4080080F7C9 /* Info.plist */,
 			);
 			path = Falcone;
@@ -125,6 +128,38 @@
 				5E4AF4F02AB9C4080080F7C9 /* FalconeUITestsLaunchTests.swift */,
 			);
 			path = FalconeUITests;
+			sourceTree = "<group>";
+		};
+		5E4AF4FD2ABC385A0080F7C9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5E4AF4FE2ABC38820080F7C9 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5E4AF5022ABC50CE0080F7C9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5E4AF5032ABC51040080F7C9 /* PlanetViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5E4AF5052ABC53D60080F7C9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5E4AF4D12AB9C4070080F7C9 /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5EAC6A422AC31EF800D8C99F /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+				5E4AF5002ABC4E200080F7C9 /* APICaller.swift */,
+			);
+			path = WebServices;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +266,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4AF4DA2AB9C4080080F7C9 /* LaunchScreen.storyboard in Resources */,
 				5E4AF4D72AB9C4080080F7C9 /* Assets.xcassets in Resources */,
-				5E4AF4D52AB9C4070080F7C9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E4AF4D22AB9C4070080F7C9 /* ViewController.swift in Sources */,
+				5E4AF4FF2ABC38820080F7C9 /* DataModel.swift in Sources */,
 				5E4AF4CE2AB9C4070080F7C9 /* AppDelegate.swift in Sources */,
+				5E4AF5012ABC4E200080F7C9 /* APICaller.swift in Sources */,
+				5E4AF5042ABC51040080F7C9 /* PlanetViewModel.swift in Sources */,
 				5E4AF4D02AB9C4070080F7C9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -295,25 +331,6 @@
 			targetProxy = 5E4AF4EB2AB9C4080080F7C9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		5E4AF4D32AB9C4070080F7C9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E4AF4D42AB9C4070080F7C9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5E4AF4D82AB9C4080080F7C9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5E4AF4D92AB9C4080080F7C9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		5E4AF4F22AB9C4080080F7C9 /* Debug */ = {
@@ -441,7 +458,7 @@
 				INFOPLIST_FILE = Falcone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -468,7 +485,7 @@
 				INFOPLIST_FILE = Falcone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
